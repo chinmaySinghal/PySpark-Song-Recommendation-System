@@ -1,0 +1,136 @@
+Cross validation results:
+RegParam:0.01 | Rank:20 | Alpha:0.01 | MAP:0.01754244915737856
+
+RegParam:0.01 | Rank:20 | Alpha:20.0 | MAP:0.03486772163712729
+
+RegParam:0.01 | Rank:20 | Alpha:40.0 | MAP:0.0346611885877542
+
+RegParam:0.01 | Rank:20 | Alpha:100.0 | MAP:0.032807481971791515
+
+RegParam:0.01 | Rank:50 | Alpha:0.01 | MAP:0.01753114902877938
+
+RegParam:0.01 | Rank:50 | Alpha:20.0 | MAP:0.04318185526921851
+
+RegParam:0.01 | Rank:50 | Alpha:40.0 | MAP:0.04398496348416724
+
+RegParam:0.01 | Rank:50 | Alpha:100.0 | MAP:0.04253617480673614
+
+RegParam:0.01 | Rank:100 | Alpha:0.01 | MAP:0.018184218070032513
+
+RegParam:0.01 | Rank:100 | Alpha:20.0 | MAP:0.04887951659657093
+
+RegParam:0.01 | Rank:100 | Alpha:40.0 | MAP:0.050432895094553204
+
+RegParam:0.01 | Rank:100 | Alpha:100.0 | MAP:0.04949386210554649
+
+RegParam:0.1 | Rank:20 | Alpha:0.01 | MAP:0.024925504506515775
+
+RegParam:0.1 | Rank:20 | Alpha:20.0 | MAP:0.03500757512130436
+
+RegParam:0.1 | Rank:20 | Alpha:40.0 | MAP:0.034757220990124064
+
+RegParam:0.1 | Rank:20 | Alpha:100.0 | MAP:0.032854159337131594
+
+RegParam:0.1 | Rank:50 | Alpha:0.01 | MAP:0.02707834927667043
+
+RegParam:0.1 | Rank:50 | Alpha:20.0 | MAP:0.04344371712606146
+
+RegParam:0.1 | Rank:50 | Alpha:40.0 | MAP:0.04427892605077133
+
+RegParam:0.1 | Rank:50 | Alpha:100.0 | MAP:0.042809464640004694
+
+RegParam:0.1 | Rank:100 | Alpha:0.01 | MAP:0.02987479607464239
+
+RegParam:0.1 | Rank:100 | Alpha:20.0 | MAP:0.049714563469741575
+
+RegParam:0.1 | Rank:100 | Alpha:40.0 | MAP:0.0512159661089166
+
+RegParam:0.1 | Rank:100 | Alpha:100.0 | MAP:0.05033766169549674
+
+RegParam:1 | Rank:20 | Alpha:0.01 | MAP:2.34945373777192e-05
+
+RegParam:1 | Rank:20 | Alpha:20.0 | MAP:0.03610048613670463
+
+RegParam:1 | Rank:50 | Alpha:40.0 | MAP:0.046382165826547523
+
+RegParam:1 | Rank:100 | Alpha:40.0 | MAP:0.05467912104290536
+
+RegParam:10 | Rank:20 | Alpha:20.0 | MAP:0.028828913936404982
+
+cRegParam:10 | Rank:20 | Alpha:40.0 | MAP:0.03321258578828163
+
+RegParam:10 | Rank:50 | Alpha:20.0 | MAP:0.04149210395186502
+
+RegParam:10 | Rank:50 | Alpha:40.0 | MAP:0.04696747669696165
+
+RegParam:10 | Rank:50 | Alpha:100.0 | MAP:0.04923807901173549
+
+RegParam:10 | Rank:100 | Alpha:20.0 | MAP:0.049000323963910686
+
+RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.0549168459310661
+
+RegParam:100 | Rank:20 | Alpha:20.0 | MAP:0.0008338019024149184
+
+RegParam:100 | Rank:20 | Alpha:40.0 | MAP:0.006047160353397754
+
+RegParam:100 | Rank:20 | Alpha:100.0 | MAP:0.017624512544099597
+
+RegParam:100 | Rank:50 | Alpha:20.0 | MAP:0.0011327485893920187
+
+RegParam:100 | Rank:50 | Alpha:40.0 | MAP:0.00847107475783779
+
+RegParam:100 | Rank:50 | Alpha:100.0 | MAP:0.02418618211346384
+
+RegParam:100 | Rank:100 | Alpha:20.0 | MAP:0.001350195620853089
+
+RegParam:100 | Rank:100 | Alpha:40.0 | MAP:0.01002513276814786
+
+
+Best Param Test set: RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.05527158885397887
+
+-------------------------------------------------------------------------------------------------------
+
+Extensions:
+Best log_count Val: RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.059706916405330934
+
+Best log_count Test: RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.059771
+
+Best square_count Val: RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.04099127894359609
+
+Best square_count Test: RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.045832
+
+Best cube_count Val: RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.024946026130648873
+
+Best log2_count val: RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.062177737544730036
+
+Best log2_count test: RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.062128706106271366
+
+
+Count Dropped:1 val | MAP:0.04031209505825711
+
+Count Dropped:2 val | MAP:0.03269854054153565
+
+Count Dropped:3 val | MAP:0.027348077425255742
+
+Count Dropped:4 val | MAP:0.023669431262293143
+
+Count Dropped:5 val | MAP:0.021249383566373705
+
+Counts 1-4 mapped to 1 Val | MAP:0.05067460422619554 - 
+
+-----------------------------------------------------------------------------------------------------
+
+Log_counts cross-validation:
+RegParam:0.1 | Rank:100 | Alpha:100.0 | MAP:0.0542246799855334
+
+RegParam:1 | Rank:100 | Alpha:40.0 | MAP:0.057258544909427674
+
+RegParam:10 | Rank:100 | Alpha:40.0 | MAP:0.059706916405330934
+
+RegParam:0.1 | Rank:100 | Alpha:20.0 | MAP:0.04895396904470761
+
+RegParam:10 | Rank:50 | Alpha:100.0 | MAP:0.05545383505070749
+
+RegParam:0.01 | Rank:100 | Alpha:40.0 | MAP:0.05225269349999413
+
+RegParam:0.1 | Rank:100 | Alpha:40.0 | MAP:0.05244423534220039
