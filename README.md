@@ -1,10 +1,10 @@
 # PySpark-Song-Recommendation-System
 
-# Overview
+## Overview
 Building recommendation systems (RS) using implicit feedback is a challenging task. Most of the literature on recommendation systems is mainly focused on modelling explicit feedback because of its convenient interpretation and the availability of well-defined evaluation metrics, such as RMSE, to gauge test-set performance. Nevertheless, certain ways are indeed available to extract confidence from implicit data and here we present and implement some of these methods to develop a RS using collaborative filtering for recommending songs to users based on the number of times (counts) a user listened to a particular song. so here I build and evaluate such a recommender system using PySpark and Hadoop.
 
 The distribution of songs and their respective counts in the training dataset is as follows - 
-
+![Counts ](Counts.png)
 
 ## The data set
 
