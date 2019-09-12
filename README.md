@@ -18,7 +18,6 @@ The basic recommendation model uses Spark's alternating least squares (ALS) meth
 The choice of evaluation criteria for hyper-parameter tuning was chosen to be Mean average precision (MAP). Evaluations are based on predictions of the top 500 items for each user. The baseline results are shown below - 
 
 |RegParam |  Rank | Alpha | MAP Val set |
-
 |----------|-------|-------|-------------|
 |0.01 | 50 | 40 |0.043984 |
 |0.01 | 100 | 40 |0.050432  |
@@ -37,8 +36,8 @@ The choice of evaluation criteria for hyper-parameter tuning was chosen to be Me
 
 An extension on top of the baseline collaborative filtering model was applied that focused on *Alternative model formualtions*. The `AlternatingLeastSquares` model in Spark implements a particular form of implicit-feedback modeling, but we changed its behavior by modifying the count data for the training set and calculated the corresponding MAP values on the validation set for all the different modifications like using log compression with base 2, squaring the counts, dropping low counts etc. To fit the model, we used only the best set of parameter values obtained previously and did not perform any hyperparameter tuning for evaluating these extension models due to resource limitations. Some results are shown below - 
 
-| Modification | MAP val | 
-|-------------_|---------|
+| Modification | MAP val |
+|--------------|---------|
 | Log compression base e | 0.059706 |
 | Log compression base 2 | 0.062177 |
 | Square count | 0.040991|
