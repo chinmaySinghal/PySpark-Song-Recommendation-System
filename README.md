@@ -28,12 +28,12 @@ The choice of evaluation criteria for hyper-parameter tuning was chosen to be Me
 |1 | 50 | 40 | 0.046382  |
 |1 | 100 | 40 | 0.054679 |
 |10 | 20 | 40 | 0.033212 |
-|10 | 50 | 100,0.049238 |
+|10 | 50 | 100 |0.049238 |
 |10 | 100 | 40 | 0.054916 |
 
 ## Extensions
 
-An extension on top of the baseline collaborative filtering model was applied that focused on *Alternative model formualtions*. The `AlternatingLeastSquares` model in Spark implements a particular form of implicit-feedback modeling, but we changed its behavior by modifying the count data for the training set and calculated the corresponding MAP values on the validation set for all the different modifications like using log compression with base 2, squaring the counts, dropping low counts etc. To fit the model, we used only the best set of parameter values obtained previously and did not perform any hyperparameter tuning for evaluating these extension models due to resource limitations. Some results are shown below - 
+An extension on top of the baseline collaborative filtering model was applied that focused on *Alternative model formulations*. The `AlternatingLeastSquares` model in Spark implements a particular form of implicit-feedback modeling, but we changed its behavior by modifying the count data for the training set and calculated the corresponding MAP values on the validation set for all the different modifications like using log compression with base 2, squaring the counts, dropping low counts etc. To fit the model, we used only the best set of parameter values obtained previously and did not perform any hyperparameter tuning for evaluating these extension models due to resource limitations. Some results are shown below - 
 
 | Modification | MAP val |
 |--------------|---------|
